@@ -1,14 +1,41 @@
-# Welcome to your CDK TypeScript project
 
-This is a blank project for CDK development with TypeScript.
+## Pre requirements
+### Install and configure AWS CLI
+```
+brew install awscli
+```
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+### Configure AWS CLI
+You must configure your workstation with your credentials and an AWS Region, if you have not already done so. If you have the AWS CLI installed, we recommend running the following command:
 
-## Useful commands
+```
+aws configure
+```
+Provide your AWS access key ID, secret access key, and default Region when prompted.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+### Configure the env variables
+
+```
+export PUBLIC_KEY=<YOUR-ATLAS-ORG-ID>
+export PRIVATE_KEY=<YOUR-ATLAS-ORG-ID>
+export ORG_ID=<YOUR-ATLAS-ORG-ID>
+```
+
+### Download the repository and access the project folder
+```
+git@github.com:andreaangiolillo/mongodb-atlas-cdk-aws.git
+cd mongodb-atlas-cdk-aws.git
+```
+
+## Create the Cloud Formation Stack with the CDK
+### Run cdk diff
+```
+cdk diff
+```
+
+### Run cdk deploy
+```
+cdk deploy
+```
+
+
