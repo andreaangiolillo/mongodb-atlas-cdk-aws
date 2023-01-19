@@ -19,8 +19,10 @@ export class CdkMigrateFromCfnStack extends cdk.Stack {
       throw "PRIVATE_KEY is missing. Please, set the PRIVATE_KEY as an environment variable";
     }
 
+
+
     new atlas_proj.CfnProject(this, 'Project', {
-      name: "ProjectCDK22",
+      name: "ProjectCDK",
       orgId: env.ORG_ID,
       apiKeys: {
         publicKey: env.PUBLIC_KEY,
