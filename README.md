@@ -23,7 +23,7 @@ export ORG_ID=<YOUR-ATLAS-ORG-ID>
 
 ### Download the repository and access the project folder
 ```
-git@github.com:andreaangiolillo/mongodb-atlas-cdk-aws.git
+git clone git@github.com:andreaangiolillo/mongodb-atlas-cdk-aws.git
 cd mongodb-atlas-cdk-aws.git
 ```
 
