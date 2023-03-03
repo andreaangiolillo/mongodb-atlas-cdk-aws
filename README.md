@@ -16,7 +16,7 @@ Provide your AWS access key ID, secret access key, and default Region when promp
 
 ### Install the CDK CLI
 ```
-brew install cdk
+npm install -g aws-cdk # https://docs.aws.amazon.com/cdk/v2/guide/cli.html
 ```
 
 ### Configure the env variables
