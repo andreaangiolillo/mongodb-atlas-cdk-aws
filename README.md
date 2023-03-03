@@ -13,6 +13,12 @@ aws configure
 ```
 Provide your AWS access key ID, secret access key, and default Region when prompted.
 
+
+### Install the CDK CLI
+```
+brew install cdk
+```
+
 ### Configure the env variables
 
 ```
